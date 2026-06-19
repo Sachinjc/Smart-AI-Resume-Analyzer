@@ -26,54 +26,81 @@ except ImportError:
 def get_chrome_version():
     """Get the installed Chrome/Chromium version"""
     system = platform.system()
-    
+
     if system == "Windows":
-        # Windows-specific Chrome detection
         try:
-            # Try to find Chrome in Program Files
             chrome_paths = [
                 r"C:\Program Files\Google\Chrome\Application\chrome.exe",
                 r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
                 os.path.expandvars(r"%LOCALAPPDATA%\Google\Chrome\Application\chrome.exe")
             ]
-            
+
             for path in chrome_paths:
                 if os.path.exists(path):
                     try:
-                        # Try using registry/wmic to get version
+                        # Escape path before using in f-string
+                        escaped_path = path.replace("\\", "\\\\")
+
                         output = subprocess.check_output(
-                            ['wmic', 'datafile', 'where', f'name="{path.replace("\\", "\\\\")}"', 'get', 'Version', '/value'],
+                            [
+                                'wmic',
+                                'datafile',
+                                'where',
+                                f'name="{escaped_path}"',
+                                'get',
+                                'Version',
+                                '/value'
+                            ],
                             stderr=subprocess.STDOUT
                         )
+
                         version_str = output.decode('utf-8').strip()
+
                         if "Version=" in version_str:
                             version = version_str.split('=')[1].split('.')[0]
                             return version
-                    except:
-                        # Try alternative method
+
+                    except Exception:
                         try:
-                            output = subprocess.check_output([path, '--version'], stderr=subprocess.STDOUT)
-                            version = output.decode('utf-8').strip().split()[-1].split('.')[0]
+                            output = subprocess.check_output(
+                                [path, '--version'],
+                                stderr=subprocess.STDOUT
+                            )
+                            version = (
+                                output.decode('utf-8')
+                                .strip()
+                                .split()[-1]
+                                .split('.')[0]
+                            )
                             return version
-                        except:
+                        except Exception:
                             pass
+
         except Exception:
-            # Silently fail and continue with default
             pass
+
     else:
-        # Linux/Mac detection
         try:
-            # Try different Chrome/Chromium binaries
-            for binary in ['/usr/bin/google-chrome', '/usr/bin/chromium', '/usr/bin/chromium-browser']:
+            for binary in [
+                '/usr/bin/google-chrome',
+                '/usr/bin/chromium',
+                '/usr/bin/chromium-browser'
+            ]:
                 if os.path.exists(binary):
-                    version = subprocess.check_output([binary, '--version'], stderr=subprocess.STDOUT)
-                    version = version.decode('utf-8').strip().split()[-1].split('.')[0]
+                    version = subprocess.check_output(
+                        [binary, '--version'],
+                        stderr=subprocess.STDOUT
+                    )
+                    version = (
+                        version.decode('utf-8')
+                        .strip()
+                        .split()[-1]
+                        .split('.')[0]
+                    )
                     return version
         except Exception:
-            # Silently fail and continue with default
             pass
-    
-    # Default to latest if all else fails
+
     return "120"
 
 def run_setup_script():
