@@ -379,7 +379,7 @@ Get actionable feedback and align your resume to job descriptions effortlessly.
 <tr>  
 <td align="center"><b>
    
-   [🏠 HOME](https://resumind.streamlit.app/)
+   [🏠](<a href="https://smart-ai-resume-analyzer-1wpw.onrender.com/">Home</a>)
    </b></td>  
 <td align="center"><b>
    
