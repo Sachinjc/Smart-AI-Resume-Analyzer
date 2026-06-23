@@ -370,12 +370,7 @@ AI does the heavy lifting, helping you create a winning resume in minutes.
 Get actionable feedback and align your resume to job descriptions effortlessly.  
 
 
-## <img src="https://github.com/user-attachments/assets/1fd5ec3c-a43f-4df6-b9ec-31102a6b6564" width="30px"> **Contributing**  
 
-Join the mission! Here's how:  
-1. Fork the repository.  
-2. Create a new branch for your feature: `git checkout -b feature-name`.  
-3. Push changes and submit a Pull Request.  
 
 ##  <img src="https://github.com/user-attachments/assets/5b3cb883-6652-4525-a352-b4b9a3501e07" width = 35px height = 35px> **Why Users Love Smart Resume AI**  
 
