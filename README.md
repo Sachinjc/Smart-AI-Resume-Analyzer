@@ -383,7 +383,7 @@ Get actionable feedback and align your resume to job descriptions effortlessly.
    </b></td>  
 <td align="center"><b>
    
-   [🔍]<div>RESUME ANALYZER(Below Example Analysis of Backend Deeveloper</div>
+   <div>RESUME ANALYZER(Below Example Analysis of Backend Deeveloper</div>
 </b></td>  
 </tr>  
 <tr>  
@@ -393,11 +393,11 @@ Get actionable feedback and align your resume to job descriptions effortlessly.
 <tr>  
 <td align="center"><b>
    
-   [🔍 RESUME ANALYZER(Score And Recommendations)](https://resumind.streamlit.app/)
+  <div> RESUME ANALYZER(Score And Recommendations </div>
    </b></td>  
 <td align="center"><b>
-   
-   [🔍 RESUME ANALYZER(According To Roles Recommendations)](https://resumind.streamlit.app/)
+
+  <div>RESUME ANALYZER(According To Roles Recommendations</div>
    </b></td>  
 </tr>  
 <tr>  
@@ -408,11 +408,11 @@ Get actionable feedback and align your resume to job descriptions effortlessly.
 <tr>  
 <td align="center"><b>
    
-   [🔍 RESUME ANALYZER(According To Roles Course Recommendations)](https://resumind.streamlit.app/)
+   <div>RESUME ANALYZER(According To Roles Course Recommendations</div>
    </b></td>  
 <td align="center"><b>
    
-   [🔍 RESUME ANALYZER(Videos Recommendations)](https://resumind.streamlit.app/)
+  <div>RESUME ANALYZER(Videos Recommendations</div>
    </b></td>  
 </tr>  
 <tr>  
