@@ -422,11 +422,11 @@ Get actionable feedback and align your resume to job descriptions effortlessly.
 <tr>  
 <td align="center"><b>
    
-   [📝 RESUME BUILDER](#-interactive-resume-templates)
+  <div>RESUME BUILDER</div>
 </b></td>  
 <td align="center"><b>
-   
-   [📊 DASHBOARD](https://resumind.streamlit.app/)
+
+  <div>DASHBOARD</div>
 </b></td>  
 </tr>  
 <tr>  
@@ -436,11 +436,11 @@ Get actionable feedback and align your resume to job descriptions effortlessly.
 <tr>  
 <td align="center"><b>
    
-   [🎯 JOB SEARCH](https://resumind.streamlit.app/)
+  <div>JOB SEARCH</div>
    </b></td>  
 <td align="center"><b>
    
-   [🎯 JOB SEARCH(📊 Job Market Insights & 🏢 Featured Companies)](https://resumind.streamlit.app/)
+ <div> Job Market Insights & Featured Companies</div>
    </b></td>  
 </tr>  
 <tr>  
@@ -450,11 +450,11 @@ Get actionable feedback and align your resume to job descriptions effortlessly.
 <tr>  
 <td align="center"><b>
    
-   [💬 FEEDBACK](https://resumind.streamlit.app/)
+  <div>FEEDBACK</div>
    </b></td>  
 <td align="center"><b>
    
-   [ℹ️ ABOUT](https://resumind.streamlit.app/)
+  <div>ABOUT</div>
    </b></td>  
 </tr>  
 <tr>  
@@ -465,45 +465,9 @@ Get actionable feedback and align your resume to job descriptions effortlessly.
 </div>  
 
 
-## 🎥 **Quick Glance – Version 2.0 (AI-Powered Resume Analyzer)**  
 
-<div align="center">  
-<table>  
 
-<tr>  
-<td align="center"><b>  
-   
-   [🔍 AI Resume Analysis (Custom Job Description)](https://resumind.streamlit.app/)
-   </b></td>  
-<td align="center"><b>  
-   
-   [📊 AI Resume Score & Statistics](https://resumind.streamlit.app/)
-</b></td>  
-</tr>  
 
-<tr>  
-<td><img src="https://github.com/user-attachments/assets/2105d65a-f01c-4af2-995c-fa29854a4fa1" alt="🔍 AI Resume Analysis with Custom Job Description" width="500px"></td>  
-<td><img src="https://github.com/user-attachments/assets/98f3d612-a167-4fbd-a1e2-a0a122d101a6" alt="📊 AI Resume Score & Statistics" width="500px"></td>  
-</tr>  
-
-<tr>  
-<td align="center"><b>  
-   
-   [📄 AI-Generated PDF Resume Report](https://resumind.streamlit.app/)
-   </b></td>  
-<td align="center"><b>  
-   
-   [📊 AI Resume Analysis Insights](https://resumind.streamlit.app/)
-   </b></td>  
-</tr>  
-
-<tr>  
-<td><img src="https://github.com/user-attachments/assets/e74aa01f-36e3-489a-8873-1807389007de" alt="📄 AI-Generated PDF Resume Report" width="500px"></td>  
-<td><img src="https://github.com/user-attachments/assets/9c5fbaf9-bb32-468c-b709-8e795d3f1796" alt="📊 AI Resume Analysis Insights" width="500px"></td>  
-</tr>  
-
-<tr>  
-<td align="center"><b>  
    
    [🔗 LinkedIn Job Scraper (Search Results)](https://resumind.streamlit.app/)
    </b></td>  
