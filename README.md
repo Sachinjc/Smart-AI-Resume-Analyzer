@@ -469,11 +469,11 @@ Get actionable feedback and align your resume to job descriptions effortlessly.
 
 
    
-   [🔗 LinkedIn Job Scraper (Search Results)](https://resumind.streamlit.app/)
+   <div>LinkedIn Job Scraper (Search Results)</div>
    </b></td>  
 <td align="center"><b>  
    
-   [🏢 LinkedIn Scraper (Job Listings UI)](https://resumind.streamlit.app/)
+  <div>LinkedIn Scraper (Job Listings UI)</div>
    </b></td>  
 </tr>  
 
