@@ -26,7 +26,7 @@
   <p>
     <small align="justify">
       Built with <img src="https://github.com/user-attachments/assets/00314b63-96bb-4e9a-92f6-4ead67e0fb7d" width="25" height="25"> by 
-      <a src= "https://www.linkedin.com/in/sachinkumar121d/">Sachin Kumar </a>
+      <a href= "https://www.linkedin.com/in/sachinkumar121d/">Sachin Kumar </a>
      </small>
   </p>
   <small align="justify"><img src="https://github.com/user-attachments/assets/76906dbc-343d-4267-ace5-048d428fff42" width="20px"> A Project Submitted for the partial fulfilment of the degree B.tech at 
