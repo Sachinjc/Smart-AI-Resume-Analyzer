@@ -1,8 +1,10 @@
 # Smart-AI-Resume-Analyzer
-Smart ai resume analyzer 
-To go inside this project -> 
-step 1 - click on "main"
-step 2 - Select "my-new-branch"
-step 3 - click on it 
 
-now the github repo of "Smart-AI-Resume-Analyzer" opens
+
+### Switch to the New Branch
+
+1. Open the project repository.
+2. Click the **main** branch dropdown.
+3. Select **my-new-branch** from the list.
+4. Click the branch name to switch to it.
+
