@@ -383,7 +383,7 @@ Get actionable feedback and align your resume to job descriptions effortlessly.
    </b></td>  
 <td align="center"><b>
    
-   [🔍 RESUME ANALYZER(Below Example Analysis of Backend Deeveloper)]()
+   [🔍]<div>RESUME ANALYZER(Below Example Analysis of Backend Deeveloper</div>
 </b></td>  
 </tr>  
 <tr>  
